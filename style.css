@@ -1,0 +1,4264 @@
+/* =====================================================
+   TASK 1 - INTRODUCTION TO CSS & SELECTORS
+   ===================================================== */
+
+
+/* ---------- UNIVERSAL SELECTOR ---------- */
+/* Applies to all elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------- ELEMENT SELECTOR ---------- */
+/* Styling the body */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+/* ---------- ID SELECTOR ---------- */
+/* Header styling */
+
+#header {
+    background: linear-gradient(135deg, #5b4bdb, #8b5cf6);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+/* ---------- ELEMENT SELECTOR ---------- */
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* ---------- CLASS SELECTOR ---------- */
+
+.tagline {
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: italic;
+    color: #eeeaff;
+}
+
+
+/* =====================================================
+   NAVIGATION
+   ===================================================== */
+
+.navbar {
+    background-color: white;
+    padding: 18px;
+    text-align: center;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Navigation links */
+
+.navbar a {
+    color: #5b4bdb;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+
+/* Hover effect */
+
+.navbar a:hover {
+    color: #8b5cf6;
+}
+
+
+/* =====================================================
+   MAIN CONTENT
+   ===================================================== */
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+
+/* =====================================================
+   CLASS SELECTOR
+   Card design
+   ===================================================== */
+
+.card {
+    background-color: white;
+
+    /* Spacing */
+    padding: 30px;
+    margin-bottom: 25px;
+
+    /* Design */
+    border-radius: 15px;
+
+    /* Shadow */
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ---------- ELEMENT SELECTOR ---------- */
+
+h2 {
+    color: #5b4bdb;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+/* ---------- ELEMENT SELECTOR ---------- */
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+/* =====================================================
+   SKILLS SECTION
+   ===================================================== */
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+/* Individual skill boxes */
+
+.skill {
+    flex: 1;
+
+    background-color: #f0edff;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+
+/* Skill headings */
+
+.skill h3 {
+    color: #7c3aed;
+    margin-bottom: 10px;
+}
+
+
+/* =====================================================
+   ID SELECTOR
+   Goals section
+   ===================================================== */
+
+#goals {
+    background-color: #ede9fe;
+    text-align: center;
+}
+
+
+/* =====================================================
+   CLASS SELECTOR
+   Button
+   ===================================================== */
+
+.btn {
+    margin-top: 20px;
+
+    padding: 12px 28px;
+
+    border: none;
+    border-radius: 25px;
+
+    background-color: #5b4bdb;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* Button hover */
+
+.btn:hover {
+    background-color: #7c3aed;
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+footer {
+    background-color: #211b4b;
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+/* =====================================================
+   TASK 1 REQUIREMENTS
+   =====================================================
+
+   ✓ CSS Syntax
+   ✓ External CSS
+   ✓ Element Selectors
+   ✓ Class Selectors
+   ✓ ID Selectors
+   ✓ Universal Selector
+   ✓ Colors
+   ✓ Backgrounds
+   ✓ Font Styling
+   ✓ Text Alignment
+
+   ===================================================== */
+   /* =====================================================
+   TASK 2 - CSS BOX MODEL
+   ===================================================== */
+
+
+/* =========================
+   PAGE
+   ========================= */
+
+.task2-page {
+
+    background-color: #f5f2ed;
+
+    color: #29352f;
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+.task2-header {
+
+    padding: 70px 8%;
+
+    text-align: center;
+
+    background-color: #29352f;
+
+    color: white;
+}
+
+
+.task2-header p {
+
+    color: #c9aa7c;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 15px;
+}
+
+
+.task2-header h1 {
+
+    font-size: 48px;
+
+    margin-bottom: 10px;
+}
+
+
+.task2-header span {
+
+    color: #d5dbd6;
+}
+
+
+/* =========================
+   MAIN
+   ========================= */
+
+.task2-main {
+
+    width: 85%;
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================
+   INTRO
+   ========================= */
+
+.task2-intro {
+
+    text-align: center;
+
+    padding-top: 80px;
+
+    padding-bottom: 45px;
+}
+
+
+.task2-intro p {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task2-intro h2 {
+
+    font-size: 38px;
+
+    margin: 10px 0;
+}
+
+
+.task2-intro span {
+
+    color: #777;
+}
+
+
+/* =====================================================
+   TASK 2 — BOX MODEL
+   =====================================================
+
+   Every card contains:
+
+   CONTENT
+       ↓
+   PADDING
+       ↓
+   BORDER
+       ↓
+   MARGIN
+
+   ===================================================== */
+
+
+/* =========================
+   CARD CONTAINER
+   ========================= */
+
+.task2-cards {
+
+    display: flex;
+
+    gap: 25px;
+
+    padding-bottom: 80px;
+}
+
+
+/* =====================================================
+   ⭐ TASK 2 REQUIREMENT
+   WIDTH & HEIGHT
+   ===================================================== */
+
+.task2-card {
+
+    width: 33.33%;
+
+    min-height: 360px;
+
+
+    /* =================================================
+       ⭐ TASK 2 REQUIREMENT
+       PADDING
+
+       Space between content and border.
+       ================================================= */
+
+    padding: 35px;
+
+
+    /* =================================================
+       ⭐ TASK 2 REQUIREMENT
+       BORDER
+
+       Creates the visible boundary of the box.
+       ================================================= */
+
+    border: 1px solid #ddd5c9;
+
+
+    /* =================================================
+       ⭐ TASK 2 REQUIREMENT
+       MARGIN
+
+       Space outside the element.
+       ================================================= */
+
+    margin: 10px;
+
+
+    /* =================================================
+       ⭐ TASK 2 REQUIREMENT
+       BORDER RADIUS
+       ================================================= */
+
+    border-radius: 22px;
+
+
+    /* =================================================
+       ⭐ TASK 2 REQUIREMENT
+       BOX SHADOW
+       ================================================= */
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+
+
+    background-color: white;
+
+
+    /* Content positioning */
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+}
+
+
+/* FEATURED CARD */
+
+.task2-featured {
+
+    background-color: #29352f;
+
+    color: white;
+
+    transform: translateY(-15px);
+}
+
+
+.task2-icon {
+
+    width: 55px;
+
+    height: 55px;
+
+    margin-bottom: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #eee8dd;
+
+    color: #92764e;
+
+    font-size: 25px;
+}
+
+
+.task2-number {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+
+.task2-card h3 {
+
+    font-size: 28px;
+
+    margin-bottom: 10px;
+}
+
+
+.task2-card span {
+
+    color: #777;
+
+    margin-bottom: 25px;
+}
+
+
+.task2-featured span {
+
+    color: #d0d6d2;
+}
+
+
+/* =========================
+   BUTTON
+   ========================= */
+
+.task2-card button {
+
+    width: fit-content;
+
+    padding: 11px 22px;
+
+    border: none;
+
+    border-radius: 25px;
+
+    background-color: #29352f;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+
+.task2-featured button {
+
+    background-color: #c9aa7c;
+}
+
+
+.task2-card button:hover {
+
+    transform: translateY(-2px);
+
+    transition: 0.3s;
+}
+
+
+/* =====================================================
+   BOX MODEL VISUAL
+   ===================================================== */
+
+.task2-highlight {
+
+    margin-bottom: 80px;
+
+    padding: 60px;
+
+    border: 1px solid #ddd5c9;
+
+    border-radius: 25px;
+
+    background-color: #ebe7df;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 50px;
+}
+
+
+.task2-highlight-content {
+
+    max-width: 550px;
+}
+
+
+.task2-highlight-content p {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task2-highlight-content h2 {
+
+    font-size: 42px;
+
+    line-height: 1.1;
+
+    margin: 15px 0;
+}
+
+
+.task2-highlight-content h2 span {
+
+    color: #92764e;
+}
+
+
+.task2-highlight-content > span {
+
+    color: #666;
+}
+
+
+/* =====================================================
+   ⭐ BOX MODEL VISUALIZATION
+   ===================================================== */
+
+.task2-box {
+
+    /*
+       MARGIN
+       Space outside the box
+    */
+
+    margin: 25px;
+
+
+    /*
+       BORDER
+       Boundary around the element
+    */
+
+    border: 12px solid #92764e;
+
+
+    /*
+       PADDING
+       Space between border and content
+    */
+
+    padding: 25px;
+
+
+    /*
+       WIDTH + HEIGHT
+    */
+
+    width: 180px;
+
+    height: 180px;
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    background-color: #29352f;
+}
+
+
+.task2-box-inner {
+
+    color: white;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    text-align: center;
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+.task2-footer {
+
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: #202923;
+
+    color: white;
+}
+
+
+.task2-footer span {
+
+    font-size: 13px;
+
+    opacity: 0.7;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+   ===================================================== */
+
+@media (max-width: 800px) {
+
+    .task2-cards {
+
+        flex-direction: column;
+    }
+
+
+    .task2-card {
+
+        width: 100%;
+
+        margin: 0;
+    }
+
+
+    .task2-featured {
+
+        transform: none;
+    }
+
+
+    .task2-highlight {
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+}
+/* =====================================================
+   TASK 3 — CSS FLEXBOX
+   ===================================================== */
+
+
+/* =========================
+   PAGE
+   ========================= */
+
+.task3-page {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #faf9f6;
+
+    color: #26352e;
+
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   NAVIGATION
+   ===================================================== */
+
+
+/*
+   ⭐ FLEXBOX REQUIREMENT
+
+   The navigation items are arranged
+   horizontally using Flexbox.
+*/
+
+.task3-nav {
+
+    min-height: 75px;
+
+    padding: 0 8%;
+
+    background-color: #26352e;
+
+    color: white;
+
+
+    /* FLEX CONTAINER */
+
+    display: flex;
+
+
+    /* Places logo and links
+       at opposite sides */
+
+    justify-content: space-between;
+
+
+    /* Vertically centers them */
+
+    align-items: center;
+}
+
+
+.task3-logo {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task3-logo span {
+
+    color: #c6a878;
+}
+
+
+/*
+   ⭐ FLEXBOX
+
+   Navigation links themselves
+   are arranged in a row.
+*/
+
+.task3-links {
+
+    display: flex;
+
+    gap: 30px;
+
+    align-items: center;
+}
+
+
+.task3-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+
+.task3-links a:hover {
+
+    color: #c6a878;
+}
+
+
+/* =====================================================
+   HERO
+   ===================================================== */
+
+.task3-hero {
+
+    min-height: 550px;
+
+    padding: 80px 8%;
+
+    background-color: #e8eee6;
+
+
+    /*
+       ⭐ FLEXBOX
+
+       Centers hero content vertically.
+    */
+
+    display: flex;
+
+    align-items: center;
+}
+
+
+.task3-hero-content {
+
+    max-width: 800px;
+}
+
+
+.task3-label {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 20px;
+}
+
+
+.task3-hero h1 {
+
+    font-size: clamp(45px, 7vw, 78px);
+
+    line-height: 1.05;
+
+    margin: 0 0 25px;
+}
+
+
+.task3-hero h1 span {
+
+    color: #92764e;
+}
+
+
+.task3-hero-content > p:not(.task3-label) {
+
+    max-width: 520px;
+
+    color: #666;
+
+    font-size: 17px;
+
+    margin-bottom: 30px;
+}
+
+
+.task3-button {
+
+    display: inline-block;
+
+    padding: 14px 25px;
+
+    border-radius: 30px;
+
+    background-color: #26352e;
+
+    color: white;
+
+    text-decoration: none;
+}
+
+
+.task3-button:hover {
+
+    transform: translateY(-3px);
+
+    transition: 0.3s;
+}
+
+
+/* =====================================================
+   SERVICES
+   ===================================================== */
+
+.task3-services {
+
+    padding: 100px 8%;
+}
+
+
+.task3-heading {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+
+.task3-heading p {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task3-heading h2 {
+
+    font-size: 42px;
+
+    margin: 10px 0;
+}
+
+
+.task3-heading span {
+
+    color: #777;
+}
+
+
+/* =====================================================
+   ⭐ TASK 3 — FLEX CONTAINER
+   ===================================================== */
+
+
+/*
+   Three service cards are arranged
+   side-by-side using Flexbox.
+*/
+
+.task3-service-container {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: stretch;
+
+    gap: 25px;
+
+    max-width: 1100px;
+
+    margin: auto;
+}
+
+
+/* =====================================================
+   ⭐ FLEX ITEM
+   ===================================================== */
+
+.task3-service-card {
+
+    /*
+       flex: 1 makes all cards
+       share available space equally.
+    */
+
+    flex: 1;
+
+
+    min-height: 330px;
+
+    padding: 35px;
+
+    background-color: white;
+
+    border: 1px solid #e3dfd7;
+
+    border-radius: 22px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+
+
+    /*
+       ⭐ FLEXBOX INSIDE EACH CARD
+
+       This arranges the content
+       vertically.
+    */
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+
+    transition: 0.3s;
+}
+
+
+.task3-service-card:hover {
+
+    transform: translateY(-8px);
+}
+
+
+/* Dark middle card */
+
+.task3-dark-card {
+
+    background-color: #26352e;
+
+    color: white;
+
+    transform: translateY(-15px);
+}
+
+
+.task3-dark-card:hover {
+
+    transform: translateY(-23px);
+}
+
+
+.task3-service-number {
+
+    margin-bottom: auto;
+
+    color: #92764e;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+.task3-service-card h3 {
+
+    font-size: 27px;
+
+    margin-bottom: 12px;
+}
+
+
+.task3-service-card p {
+
+    color: #777;
+
+    margin-bottom: 25px;
+}
+
+
+.task3-dark-card p {
+
+    color: #cbd2cd;
+}
+
+
+.task3-service-card a {
+
+    width: fit-content;
+
+    color: #92764e;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   ABOUT
+   ===================================================== */
+
+.task3-about {
+
+    padding: 90px 8%;
+
+    background-color: #ebe7df;
+
+
+    /*
+       ⭐ FLEXBOX
+
+       Text and number box are placed
+       side-by-side.
+    */
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 50px;
+}
+
+
+.task3-about-text {
+
+    max-width: 650px;
+}
+
+
+.task3-about-text > p {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task3-about-text h2 {
+
+    font-size: 45px;
+
+    line-height: 1.1;
+
+    margin: 15px 0;
+}
+
+
+.task3-about-text > span {
+
+    color: #666;
+
+    line-height: 1.8;
+}
+
+
+/* Number box */
+
+.task3-about-box {
+
+    width: 190px;
+
+    height: 190px;
+
+    flex-shrink: 0;
+
+    background-color: #26352e;
+
+    color: white;
+
+    border-radius: 50%;
+
+
+    /*
+       ⭐ FLEXBOX
+
+       Centers the content inside
+       the circle.
+    */
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+
+.task3-about-box strong {
+
+    font-size: 50px;
+
+    color: #c6a878;
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+.task3-footer {
+
+    min-height: 90px;
+
+    padding: 25px 8%;
+
+    background-color: #17221d;
+
+    color: white;
+
+
+    /*
+       ⭐ FLEXBOX
+
+       Footer content placed
+       on opposite sides.
+    */
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+.task3-footer strong {
+
+    letter-spacing: 3px;
+}
+
+
+.task3-footer p {
+
+    font-size: 13px;
+
+    opacity: 0.7;
+}
+
+
+/* =====================================================
+   RESPONSIVE FLEXBOX
+   ===================================================== */
+
+@media (max-width: 800px) {
+
+
+    /*
+       Stack the service cards
+       vertically on smaller screens.
+    */
+
+    .task3-service-container {
+
+        flex-direction: column;
+    }
+
+
+    .task3-dark-card {
+
+        transform: none;
+    }
+
+
+    .task3-dark-card:hover {
+
+        transform: translateY(-8px);
+    }
+
+
+    /*
+       Stack About section.
+    */
+
+    .task3-about {
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+
+    /*
+       Stack footer.
+    */
+
+    .task3-footer {
+
+        flex-direction: column;
+
+        gap: 10px;
+
+        text-align: center;
+    }
+
+}
+
+
+/* =====================================================
+   TASK 3 REQUIREMENTS USED
+   =====================================================
+
+   ✓ Flex Container
+   ✓ display: flex
+   ✓ flex-direction
+   ✓ justify-content
+   ✓ align-items
+   ✓ gap
+   ✓ flex: 1
+   ✓ Flex Items
+   ✓ Row layout
+   ✓ Column layout
+   ✓ Nested Flexbox
+   ✓ Responsive Flexbox
+
+   ===================================================== */
+   /* =====================================================
+   TASK 4 — CSS GRID
+   ===================================================== */
+
+
+/* =========================
+   PAGE
+   ========================= */
+
+.task4-page {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #faf9f6;
+
+    color: #26352e;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+.task4-nav {
+
+    height: 75px;
+
+    padding: 0 8%;
+
+    background-color: #26352e;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+.task4-logo {
+
+    font-size: 21px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task4-logo span {
+
+    color: #c7a878;
+}
+
+
+.task4-links {
+
+    display: flex;
+
+    gap: 30px;
+}
+
+
+.task4-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+
+.task4-links a:hover {
+
+    color: #c7a878;
+}
+
+
+/* =========================
+   HERO
+   ========================= */
+
+.task4-hero {
+
+    min-height: 480px;
+
+    padding: 80px 8%;
+
+    background-color: #e8eee6;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+
+.task4-hero > p {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 4px;
+}
+
+
+.task4-hero h1 {
+
+    font-size: clamp(48px, 7vw, 80px);
+
+    line-height: 1.05;
+
+    margin: 15px 0 30px;
+}
+
+
+.task4-hero h1 span {
+
+    color: #92764e;
+}
+
+
+.task4-hero-bottom {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    max-width: 900px;
+}
+
+
+.task4-hero-bottom p {
+
+    max-width: 450px;
+
+    color: #666;
+}
+
+
+.task4-hero-bottom a {
+
+    color: #26352e;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+/* =========================
+   PROJECT SECTION
+   ========================= */
+
+.task4-projects {
+
+    padding: 100px 8%;
+}
+
+
+.task4-heading {
+
+    margin-bottom: 45px;
+}
+
+
+.task4-heading p {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task4-heading h2 {
+
+    font-size: 42px;
+
+    margin-top: 10px;
+}
+
+
+/* =====================================================
+   ⭐ TASK 4 REQUIREMENT 1
+   GRID CONTAINER
+   ===================================================== */
+
+.task4-grid {
+
+    /*
+       Turns this container into
+       a CSS Grid.
+    */
+
+    display: grid;
+
+
+    /* =================================================
+       ⭐ TASK 4 REQUIREMENT 2
+       ROWS & COLUMNS
+       =================================================
+
+       Creates THREE equal columns.
+    */
+
+    grid-template-columns: repeat(3, 1fr);
+
+
+    /* Rows are automatically created */
+
+    grid-auto-rows: auto;
+
+
+    /* =================================================
+       ⭐ TASK 4 REQUIREMENT 3
+       GRID GAP
+       ================================================= */
+
+    gap: 25px;
+
+    max-width: 1100px;
+
+    margin: auto;
+}
+
+
+/* =====================================================
+   GRID CARDS
+   ===================================================== */
+
+.task4-card {
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+
+    transition: 0.3s;
+}
+
+
+.task4-card:hover {
+
+    transform: translateY(-8px);
+}
+
+
+/* =====================================================
+   ⭐ TASK 4 REQUIREMENT 4
+   GRID ITEM PLACEMENT
+   =====================================================
+
+   Featured card occupies TWO columns.
+   ===================================================== */
+
+.task4-featured {
+
+    grid-column: span 2;
+}
+
+
+/* =====================================================
+   PROJECT VISUAL
+   ===================================================== */
+
+.task4-image {
+
+    height: 220px;
+
+    padding: 25px;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: flex-start;
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+
+/* Different project backgrounds */
+
+.task4-image-one {
+
+    background-color: #30483e;
+}
+
+
+.task4-image-two {
+
+    background-color: #8c765a;
+}
+
+
+.task4-image-three {
+
+    background-color: #596b62;
+}
+
+
+.task4-image-four {
+
+    background-color: #6c6256;
+}
+
+
+.task4-image-five {
+
+    background-color: #3f554b;
+}
+
+
+/* =====================================================
+   CARD CONTENT
+   ===================================================== */
+
+.task4-card-content {
+
+    padding: 25px;
+}
+
+
+.task4-card-content p {
+
+    color: #92764e;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+
+.task4-card-content h3 {
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+}
+
+
+.task4-card-content span {
+
+    color: #777;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   ⭐ TASK 4 REQUIREMENT 5
+   MULTIPLE-COLUMN LAYOUT
+   =====================================================
+
+   The entire gallery uses THREE columns.
+
+   Featured card:
+   Column 1 + Column 2
+
+   Other cards:
+   Individual columns.
+   ===================================================== */
+
+
+/* =========================
+   ABOUT
+   ========================= */
+
+.task4-about {
+
+    padding: 90px 8%;
+
+    background-color: #ebe7df;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 60px;
+}
+
+
+.task4-about > div {
+
+    min-width: 300px;
+}
+
+
+.task4-about p:first-child {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task4-about h2 {
+
+    font-size: 45px;
+
+    line-height: 1.1;
+}
+
+
+.task4-about h2 span {
+
+    color: #92764e;
+}
+
+
+.task4-about > p {
+
+    max-width: 500px;
+
+    color: #666;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.task4-footer {
+
+    min-height: 90px;
+
+    padding: 25px 8%;
+
+    background-color: #17221d;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+.task4-footer strong {
+
+    letter-spacing: 3px;
+}
+
+
+.task4-footer span {
+
+    font-size: 13px;
+
+    opacity: 0.7;
+}
+
+
+/* =====================================================
+   RESPONSIVE GRID
+   ===================================================== */
+
+@media (max-width: 800px) {
+
+    /*
+       Change from 3 columns
+       to 2 columns.
+    */
+
+    .task4-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .task4-featured {
+
+        grid-column: span 2;
+    }
+
+
+    .task4-hero-bottom {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 25px;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+
+    /*
+       Change to ONE column
+       on mobile.
+    */
+
+    .task4-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .task4-featured {
+
+        grid-column: auto;
+    }
+
+
+    .task4-about {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+
+    .task4-footer {
+
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+}
+
+
+/* =====================================================
+   TASK 4 REQUIREMENTS CHECK
+   =====================================================
+
+   ✓ Grid Container
+   ✓ Rows & Columns
+   ✓ Grid Gap
+   ✓ Grid Item Placement
+   ✓ Multiple-column Layout
+   ✓ Featured Grid Item
+   ✓ Responsive Grid
+
+   ===================================================== */
+   /* =====================================================
+   TASK 5 — RESPONSIVE WEB DESIGN
+   ===================================================== */
+
+
+/* =========================
+   PAGE
+   ========================= */
+
+.task5-page {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f8f8f5;
+
+    color: #26352e;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+.task5-nav {
+
+    height: 75px;
+
+    padding: 0 8%;
+
+    background-color: #26352e;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+.task5-logo {
+
+    font-size: 21px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task5-logo span {
+
+    color: #c7a878;
+}
+
+
+.task5-links {
+
+    display: flex;
+
+    gap: 30px;
+}
+
+
+.task5-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+
+.task5-links a:hover {
+
+    color: #c7a878;
+}
+
+
+/* Mobile menu button */
+
+.task5-menu {
+
+    display: none;
+
+    border: none;
+
+    background: transparent;
+
+    color: white;
+
+    font-size: 25px;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   HERO
+   ========================= */
+
+.task5-hero {
+
+    min-height: 550px;
+
+    padding: 80px 8%;
+
+    background-color: #e8eee6;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 60px;
+}
+
+
+.task5-hero-content {
+
+    max-width: 650px;
+}
+
+
+.task5-hero-content > p:first-child {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 4px;
+}
+
+
+.task5-hero h1 {
+
+    font-size: clamp(45px, 7vw, 78px);
+
+    line-height: 1.05;
+
+    margin: 20px 0;
+}
+
+
+.task5-hero h1 span {
+
+    color: #92764e;
+}
+
+
+.task5-hero-content > p:not(:first-child) {
+
+    max-width: 500px;
+
+    color: #666;
+
+    font-size: 17px;
+
+    margin-bottom: 30px;
+}
+
+
+.task5-button {
+
+    display: inline-block;
+
+    padding: 14px 25px;
+
+    border-radius: 30px;
+
+    background-color: #26352e;
+
+    color: white;
+
+    text-decoration: none;
+}
+
+
+/* =========================
+   DEVICE VISUAL
+   ========================= */
+
+.task5-device {
+
+    width: 280px;
+
+    height: 400px;
+
+    padding: 12px;
+
+    border: 8px solid #26352e;
+
+    border-radius: 30px;
+
+    background-color: #1d2923;
+
+    flex-shrink: 0;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+.task5-screen {
+
+    width: 100%;
+
+    height: 100%;
+
+    border-radius: 18px;
+
+    background-color: #d5dfd6;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+}
+
+
+.task5-screen span {
+
+    color: #26352e;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+/* =========================
+   FEATURES
+   ========================= */
+
+.task5-features {
+
+    padding: 100px 8%;
+}
+
+
+.task5-heading {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+
+.task5-heading p {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task5-heading h2 {
+
+    font-size: 40px;
+
+    margin-top: 10px;
+}
+
+
+/* Feature container */
+
+.task5-feature-container {
+
+    display: flex;
+
+    gap: 25px;
+
+    max-width: 1050px;
+
+    margin: auto;
+}
+
+
+/* Feature cards */
+
+.task5-feature {
+
+    flex: 1;
+
+    padding: 35px;
+
+    background-color: white;
+
+    border: 1px solid #e1ded7;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+.task5-icon {
+
+    width: 60px;
+
+    height: 60px;
+
+    margin: 0 auto 20px;
+
+    border-radius: 50%;
+
+    background-color: #e8eee6;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 25px;
+
+    color: #92764e;
+}
+
+
+.task5-feature h3 {
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+}
+
+
+.task5-feature p {
+
+    color: #777;
+}
+
+
+/* =========================
+   ABOUT
+   ========================= */
+
+.task5-about {
+
+    padding: 90px 8%;
+
+    background-color: #ebe7df;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 60px;
+}
+
+
+.task5-about > div {
+
+    max-width: 600px;
+}
+
+
+.task5-about > div p {
+
+    color: #92764e;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.task5-about h2 {
+
+    font-size: 42px;
+
+    line-height: 1.1;
+}
+
+
+.task5-about > p {
+
+    max-width: 500px;
+
+    color: #666;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.task5-footer {
+
+    min-height: 90px;
+
+    padding: 25px 8%;
+
+    background-color: #17221d;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+.task5-footer strong {
+
+    letter-spacing: 3px;
+}
+
+
+.task5-footer span {
+
+    font-size: 13px;
+
+    opacity: 0.7;
+}
+
+
+/* =====================================================
+   ⭐ RESPONSIVE DESIGN
+   TABLET
+   ===================================================== */
+
+@media (max-width: 900px) {
+
+    .task5-hero {
+
+        padding: 70px 6%;
+
+        gap: 35px;
+    }
+
+
+    .task5-device {
+
+        width: 220px;
+
+        height: 330px;
+    }
+
+
+    .task5-feature-container {
+
+        flex-wrap: wrap;
+    }
+
+
+    .task5-feature {
+
+        min-width: 40%;
+    }
+
+}
+
+
+/* =====================================================
+   ⭐ RESPONSIVE DESIGN
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 600px) {
+
+
+    /* Navigation */
+
+    .task5-nav {
+
+        padding: 0 6%;
+    }
+
+
+    /*
+       Hide desktop links
+       on small screens.
+    */
+
+    .task5-links {
+
+        display: none;
+    }
+
+
+    /*
+       Show mobile menu button.
+    */
+
+    .task5-menu {
+
+        display: block;
+    }
+
+
+    /* Hero */
+
+    .task5-hero {
+
+        min-height: auto;
+
+        padding: 60px 6%;
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+
+    .task5-hero-content > p:not(:first-child) {
+
+        margin-left: auto;
+
+        margin-right: auto;
+    }
+
+
+    .task5-device {
+
+        width: 190px;
+
+        height: 280px;
+    }
+
+
+    /* Features */
+
+    .task5-features {
+
+        padding: 70px 6%;
+    }
+
+
+    .task5-heading h2 {
+
+        font-size: 32px;
+    }
+
+
+    .task5-feature-container {
+
+        flex-direction: column;
+    }
+
+
+    .task5-feature {
+
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+
+    /* About */
+
+    .task5-about {
+
+        padding: 70px 6%;
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+
+    .task5-about h2 {
+
+        font-size: 34px;
+    }
+
+
+    /* Footer */
+
+    .task5-footer {
+
+        flex-direction: column;
+
+        gap: 10px;
+
+        text-align: center;
+    }
+
+}
+
+
+/* =====================================================
+   TASK 5 REQUIREMENTS CHECK
+   =====================================================
+
+   ✓ Responsive Web Design
+   ✓ CSS Media Queries
+   ✓ Desktop Layout
+   ✓ Tablet Layout
+   ✓ Mobile Layout
+   ✓ Flexible Widths
+   ✓ Responsive Typography
+   ✓ Responsive Navigation
+   ✓ Responsive Cards
+   ✓ Mobile Menu Button
+
+   ===================================================== */
+   /* =====================================================
+   TASK 6 — MINI PROJECT
+   PERSONAL PORTFOLIO
+   PINK CREATIVE THEME
+   ===================================================== */
+
+
+/* =========================
+   COLOR VARIABLES
+   ========================= */
+
+/* =====================================================
+   TASK 6 — MINI PROJECT
+   PINK CREATIVE PORTFOLIO
+   ===================================================== */
+
+
+/* =========================
+   MAIN THEME
+   ========================= */
+
+.task6-page {
+
+    --pink: #e85d8f;
+
+    --hot-pink: #d83f78;
+
+    --dark-pink: #b83268;
+
+    --light-pink: #fff0f6;
+
+    --soft-pink: #ffd8e6;
+
+    --pale-pink: #fff8fb;
+
+    --deep-pink: #542238;
+
+    --text: #3d2932;
+
+    --muted: #786670;
+
+    --white: #ffffff;
+
+    margin: 0;
+
+    font-family: "DM Sans", sans-serif;
+
+    background: var(--pale-pink);
+
+    color: var(--text);
+
+    line-height: 1.6;
+
+    scroll-behavior: smooth;
+}
+
+
+.task6-page *,
+.task6-page *::before,
+.task6-page *::after {
+
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+.task6-nav {
+
+    height: 78px;
+
+    padding: 0 7%;
+
+    background: rgba(255, 248, 251, 0.96);
+
+    border-bottom: 1px solid #f3d5e1;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    backdrop-filter: blur(12px);
+}
+
+
+.task6-logo {
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        135deg,
+        #f47ca6,
+        #d83f78
+    );
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 27px;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 8px 20px rgba(216, 63, 120, 0.2);
+}
+
+
+.task6-logo span {
+
+    color: #ffd9e7;
+}
+
+
+.task6-nav-links {
+
+    display: flex;
+
+    gap: 32px;
+}
+
+
+.task6-nav-links a {
+
+    color: var(--text);
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+
+.task6-nav-links a:hover {
+
+    color: var(--pink);
+}
+
+
+.task6-talk-button {
+
+    padding: 10px 20px;
+
+    border-radius: 30px;
+
+    background: var(--deep-pink);
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+
+.task6-talk-button:hover {
+
+    background: var(--pink);
+
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   HERO
+   ===================================================== */
+
+.task6-hero {
+
+    min-height: 720px;
+
+    padding: 80px 8%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 60px;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 80% 25%,
+            #ffc8da 0%,
+            #ffe6ef 28%,
+            #fff4f8 58%,
+            #fffafd 100%
+        );
+}
+
+
+.task6-hero-content {
+
+    max-width: 700px;
+
+    z-index: 2;
+}
+
+
+.task6-eyebrow {
+
+    color: var(--dark-pink);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 20px;
+}
+
+
+.task6-hero h1 {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: clamp(50px, 7vw, 88px);
+
+    line-height: 1.02;
+
+    margin: 0 0 28px;
+
+    color: var(--deep-pink);
+}
+
+
+.task6-hero h1 span {
+
+    display: block;
+
+    color: var(--pink);
+}
+
+
+.task6-hero-text {
+
+    max-width: 570px;
+
+    color: var(--muted);
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    margin-bottom: 32px;
+}
+
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+.task6-buttons {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+}
+
+
+.task6-primary-button {
+
+    padding: 14px 25px;
+
+    background: linear-gradient(
+        135deg,
+        #e85d8f,
+        #c93670
+    );
+
+    color: white;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    box-shadow:
+        0 10px 25px rgba(216, 63, 120, 0.2);
+
+    transition: 0.3s;
+}
+
+
+.task6-primary-button:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 15px 30px rgba(216, 63, 120, 0.3);
+}
+
+
+.task6-secondary-button {
+
+    padding: 14px 20px;
+
+    color: var(--dark-pink);
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+/* =========================
+   STATS
+   ========================= */
+
+.task6-stats {
+
+    display: flex;
+
+    gap: 42px;
+
+    margin-top: 55px;
+
+    padding-top: 25px;
+
+    border-top: 1px solid #efcbd8;
+}
+
+
+.task6-stats div {
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+.task6-stats strong {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 24px;
+
+    color: var(--pink);
+}
+
+
+.task6-stats span {
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+
+/* =====================================================
+   HERO VISUAL
+   ===================================================== */
+
+.task6-hero-visual {
+
+    width: 430px;
+
+    height: 500px;
+
+    flex-shrink: 0;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.task6-circle {
+
+    width: 430px;
+
+    height: 430px;
+
+    border: 1px solid #eea8c1;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    animation: task6-rotate 20s linear infinite;
+}
+
+
+.task6-circle::after {
+
+    content: "";
+
+    width: 13px;
+
+    height: 13px;
+
+    background: var(--pink);
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    top: 35px;
+
+    left: 65px;
+}
+
+
+.task6-circle-small {
+
+    width: 300px;
+
+    height: 300px;
+
+    border: 1px dashed #f2b8cd;
+
+    border-radius: 50%;
+
+    position: absolute;
+}
+
+
+@keyframes task6-rotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+.task6-profile-card {
+
+    width: 295px;
+
+    height: 395px;
+
+    padding: 25px;
+
+    border-radius: 25px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #ed709b,
+            #c93670
+        );
+
+    color: white;
+
+    position: relative;
+
+    z-index: 3;
+
+    transform: rotate(4deg);
+
+    box-shadow:
+        0 30px 60px rgba(184, 50, 104, 0.25);
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+
+.task6-card-top,
+.task6-card-bottom {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+}
+
+
+.task6-profile-middle {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+
+.task6-letter {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 150px;
+
+    line-height: 1;
+
+    color: #ffd8e6;
+}
+
+
+.task6-profile-middle p {
+
+    margin: 5px 0;
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+}
+
+
+/* =====================================================
+   SECTION LABEL
+   ===================================================== */
+
+.task6-section-label {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    color: var(--hot-pink);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+}
+
+
+.task6-section-label span {
+
+    color: #b9a7ae;
+}
+
+
+/* =====================================================
+   ABOUT
+   ===================================================== */
+
+.task6-about {
+
+    padding: 120px 8%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff0f6,
+            #ffe0eb,
+            #fff7fa
+        );
+}
+
+
+.task6-about-grid {
+
+    margin-top: 55px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 90px;
+}
+
+
+.task6-mini-label {
+
+    color: var(--hot-pink);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 4px;
+}
+
+
+.task6-about-heading h2 {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: clamp(50px, 6vw, 75px);
+
+    line-height: 1;
+
+    margin: 15px 0;
+
+    color: var(--deep-pink);
+}
+
+
+.task6-about-heading h2 span {
+
+    color: var(--pink);
+}
+
+
+.task6-about-heading h3 {
+
+    color: var(--dark-pink);
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    margin-top: 25px;
+}
+
+
+.task6-about-text p {
+
+    color: #725c66;
+
+    line-height: 1.9;
+
+    margin-bottom: 18px;
+}
+
+
+.task6-about-text strong {
+
+    color: var(--dark-pink);
+}
+
+
+/* About highlight cards */
+
+.task6-about-highlights {
+
+    display: flex;
+
+    gap: 12px;
+
+    margin: 30px 0;
+}
+
+
+.task6-about-highlights div {
+
+    flex: 1;
+
+    padding: 18px;
+
+    background: rgba(255,255,255,0.8);
+
+    border: 1px solid #f2bfd1;
+
+    border-radius: 16px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    transition: 0.3s;
+}
+
+
+.task6-about-highlights div:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 12px 25px rgba(232, 93, 143, 0.15);
+}
+
+
+.task6-about-highlights strong {
+
+    color: var(--hot-pink);
+
+    font-size: 19px;
+}
+
+
+.task6-about-highlights span {
+
+    color: #806570;
+
+    font-size: 10px;
+
+    margin-top: 4px;
+}
+
+
+.task6-about-text > a {
+
+    color: var(--dark-pink);
+
+    text-decoration: none;
+
+    font-weight: 700;
+
+    border-bottom: 2px solid var(--pink);
+
+    padding-bottom: 4px;
+}
+
+
+/* =====================================================
+   SKILLS
+   ===================================================== */
+
+.task6-skills {
+
+    padding: 120px 8%;
+
+    background: #fff7fa;
+}
+
+
+.task6-section-heading {
+
+    margin-bottom: 55px;
+
+    max-width: 700px;
+}
+
+
+.task6-section-heading > p {
+
+    color: var(--hot-pink);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+}
+
+
+.task6-section-heading h2 {
+
+    font-family: "Playfair Display", serif;
+
+    color: var(--deep-pink);
+
+    font-size: clamp(42px, 5vw, 65px);
+
+    line-height: 1.05;
+
+    margin: 15px 0;
+}
+
+
+.task6-section-heading h2 span {
+
+    color: var(--pink);
+}
+
+
+/* =====================================================
+   SKILLS GRID
+   ===================================================== */
+
+.task6-skills-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(5, 1fr);
+
+    gap: 15px;
+}
+
+
+.task6-skill-card {
+
+    min-height: 280px;
+
+    padding: 25px;
+
+    background: white;
+
+    border: 1px solid #f1d6e1;
+
+    border-radius: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    transition: 0.3s;
+}
+
+
+.task6-skill-card:hover {
+
+    transform: translateY(-8px);
+
+    border-color: #ed9fba;
+
+    box-shadow:
+        0 20px 35px rgba(216, 63, 120, 0.12);
+}
+
+
+.task6-skill-card.skill-featured {
+
+    background:
+        linear-gradient(
+            145deg,
+            #e85d8f,
+            #c93670
+        );
+
+    color: white;
+
+    border: none;
+}
+
+
+.task6-skill-number {
+
+    color: #bdaab2;
+
+    font-size: 10px;
+
+    letter-spacing: 2px;
+}
+
+
+.skill-featured .task6-skill-number {
+
+    color: #ffd5e4;
+}
+
+
+.task6-skill-symbol {
+
+    width: 55px;
+
+    height: 55px;
+
+    margin-top: 30px;
+
+    border-radius: 16px;
+
+    background: var(--light-pink);
+
+    color: var(--hot-pink);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: 700;
+
+    font-size: 18px;
+}
+
+
+.skill-featured .task6-skill-symbol {
+
+    background: rgba(255,255,255,0.2);
+
+    color: white;
+}
+
+
+.task6-skill-card h3 {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 22px;
+
+    margin: 20px 0 8px;
+}
+
+
+.task6-skill-card p {
+
+    color: var(--muted);
+
+    font-size: 12px;
+
+    line-height: 1.7;
+
+    margin-top: auto;
+}
+
+
+.skill-featured p {
+
+    color: #ffe1eb;
+}
+
+
+/* =====================================================
+   PROJECTS
+   ===================================================== */
+
+.task6-projects {
+
+    padding: 120px 8%;
+
+    background:
+        linear-gradient(
+            180deg,
+            #fff7fa,
+            #ffedf4
+        );
+}
+
+
+.task6-project-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        1.25fr 1fr;
+
+    gap: 25px;
+}
+
+
+.task6-project {
+
+    background: white;
+
+    border: 1px solid #f0d6e1;
+
+    border-radius: 24px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+}
+
+
+.task6-project:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 25px 45px rgba(184, 50, 104, 0.14);
+}
+
+
+.task6-project-number {
+
+    padding: 18px 22px;
+
+    color: #aa969f;
+
+    font-size: 10px;
+
+    letter-spacing: 2px;
+}
+
+
+.task6-project-image {
+
+    height: 300px;
+
+    margin: 0 15px;
+
+    border-radius: 18px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.task6-project-image > h3,
+.task6-project-image > span {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 43px;
+
+    line-height: 1;
+
+    text-align: center;
+}
+
+
+/* Secure Ballot */
+
+.ballot-project {
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffb6cf,
+            #e85d8f
+        );
+
+    color: white;
+}
+
+
+.task6-dashboard {
+
+    width: 190px;
+
+    height: 125px;
+
+    padding: 15px;
+
+    background: white;
+
+    border-radius: 12px;
+
+    position: absolute;
+
+    left: 30px;
+
+    top: 30px;
+
+    box-shadow:
+        0 15px 30px rgba(80, 20, 45, 0.15);
+}
+
+
+.dashboard-top {
+
+    width: 80px;
+
+    height: 8px;
+
+    background: #ed7da4;
+
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+}
+
+
+.dashboard-row {
+
+    width: 100%;
+
+    height: 7px;
+
+    background: #f5d4df;
+
+    border-radius: 10px;
+
+    margin-bottom: 9px;
+}
+
+
+.dashboard-row.short {
+
+    width: 65%;
+}
+
+
+.dashboard-circle {
+
+    width: 30px;
+
+    height: 30px;
+
+    background: #e85d8f;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    right: 15px;
+
+    bottom: 15px;
+}
+
+
+/* Portfolio */
+
+.portfolio-project {
+
+    background: #542238;
+
+    color: #ffd6e4;
+}
+
+
+/* Creative */
+
+.creative-project {
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffd6e5,
+            #f3a6c0
+        );
+
+    color: #a52e60;
+}
+
+
+/* Project content */
+
+.task6-project-content {
+
+    padding: 25px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 25px;
+}
+
+
+.task6-project-content span {
+
+    color: var(--hot-pink);
+
+    font-size: 9px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+
+.task6-project-content h3 {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 23px;
+
+    margin: 5px 0;
+}
+
+
+.task6-project-content p {
+
+    max-width: 240px;
+
+    color: var(--muted);
+
+    font-size: 12px;
+
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   CONTACT
+   ===================================================== */
+
+.task6-contact {
+
+    min-height: 520px;
+
+    padding: 80px 8%;
+
+    background:
+        radial-gradient(
+            circle at 75% 40%,
+            #e85d8f,
+            #b83268 38%,
+            #542238 85%
+        );
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 70px;
+
+    overflow: hidden;
+}
+
+
+.task6-contact-number {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 150px;
+
+    color: rgba(255,255,255,0.12);
+}
+
+
+.task6-contact-content {
+
+    max-width: 750px;
+}
+
+
+.task6-contact-content > p:first-child {
+
+    color: #ffd2e1;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 4px;
+}
+
+
+.task6-contact-content h2 {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: clamp(48px, 6vw, 78px);
+
+    line-height: 1;
+
+    margin: 20px 0;
+}
+
+
+.task6-contact-content h2 span {
+
+    display: block;
+
+    color: #ffb0ca;
+}
+
+
+.task6-contact-text {
+
+    color: #ffe2eb;
+
+    margin-bottom: 30px;
+}
+
+
+.task6-contact-button {
+
+    display: inline-block;
+
+    padding: 15px 28px;
+
+    background: white;
+
+    color: var(--dark-pink);
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+
+.task6-contact-button:hover {
+
+    background: #ffd1df;
+
+    transform: translateY(-4px);
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+.task6-footer {
+
+    min-height: 90px;
+
+    padding: 25px 8%;
+
+    background: #351c29;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+.task6-footer-logo {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 30px;
+
+    color: #ff8fb6;
+}
+
+
+.task6-footer-logo span {
+
+    color: white;
+}
+
+
+.task6-footer p {
+
+    color: #bcaeb4;
+
+    font-size: 11px;
+}
+
+
+/* =====================================================
+   RESPONSIVE — TABLET
+   ===================================================== */
+
+@media (max-width: 1050px) {
+
+
+    .task6-hero {
+
+        padding: 70px 6%;
+
+        gap: 30px;
+    }
+
+
+    .task6-hero-visual {
+
+        width: 350px;
+    }
+
+
+    .task6-circle {
+
+        width: 350px;
+
+        height: 350px;
+    }
+
+
+    .task6-skills-grid {
+
+        grid-template-columns:
+            repeat(3, 1fr);
+    }
+
+
+    .task6-project-grid {
+
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+}
+
+
+/* =====================================================
+   RESPONSIVE — MOBILE
+   ===================================================== */
+
+@media (max-width: 700px) {
+
+
+    /* Navigation */
+
+    .task6-nav {
+
+        padding: 0 5%;
+    }
+
+
+    .task6-nav-links {
+
+        display: none;
+    }
+
+
+    .task6-talk-button {
+
+        padding: 9px 15px;
+    }
+
+
+    /* Hero */
+
+    .task6-hero {
+
+        padding: 70px 6%;
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+
+    .task6-hero h1 span {
+
+        display: inline;
+    }
+
+
+    .task6-hero-text {
+
+        margin-left: auto;
+
+        margin-right: auto;
+    }
+
+
+    .task6-buttons {
+
+        justify-content: center;
+    }
+
+
+    .task6-stats {
+
+        justify-content: center;
+
+        gap: 25px;
+    }
+
+
+    .task6-hero-visual {
+
+        width: 310px;
+
+        height: 390px;
+    }
+
+
+    .task6-circle {
+
+        width: 300px;
+
+        height: 300px;
+    }
+
+
+    .task6-circle-small {
+
+        width: 230px;
+
+        height: 230px;
+    }
+
+
+    .task6-profile-card {
+
+        width: 220px;
+
+        height: 310px;
+    }
+
+
+    .task6-letter {
+
+        font-size: 110px;
+    }
+
+
+    /* About */
+
+    .task6-about {
+
+        padding: 80px 6%;
+    }
+
+
+    .task6-about-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+
+    .task6-about-highlights {
+
+        flex-wrap: wrap;
+    }
+
+
+    /* Skills */
+
+    .task6-skills {
+
+        padding: 80px 6%;
+    }
+
+
+    .task6-skills-grid {
+
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+
+    /* Projects */
+
+    .task6-projects {
+
+        padding: 80px 6%;
+    }
+
+
+    .task6-project-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .task6-project-content {
+
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+
+    /* Contact */
+
+    .task6-contact {
+
+        min-height: 450px;
+
+        padding: 70px 6%;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 0;
+    }
+
+
+    .task6-contact-number {
+
+        font-size: 90px;
+    }
+
+
+    /* Footer */
+
+    .task6-footer {
+
+        padding: 25px 6%;
+
+        flex-direction: column;
+
+        gap: 8px;
+
+        text-align: center;
+    }
+
+}
+
+
+/* =====================================================
+   RESPONSIVE — SMALL MOBILE
+   ===================================================== */
+
+@media (max-width: 450px) {
+
+
+    .task6-skills-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .task6-hero-visual {
+
+        width: 280px;
+    }
+
+
+    .task6-profile-card {
+
+        width: 205px;
+    }
+
+
+    .task6-stats {
+
+        gap: 18px;
+    }
+
+
+    .task6-project-image {
+
+        height: 250px;
+    }
+
+}
+
+
+/* =====================================================
+   TASK 6 REQUIREMENTS
+   =====================================================
+
+   ✓ HTML5 Structure
+   ✓ CSS Selectors
+   ✓ Typography
+   ✓ Colours
+   ✓ Backgrounds
+   ✓ Box Model
+   ✓ Margin
+   ✓ Padding
+   ✓ Borders
+   ✓ Border Radius
+   ✓ Box Shadow
+   ✓ Flexbox
+   ✓ CSS Grid
+   ✓ Grid Layout
+   ✓ Hover Effects
+   ✓ Animations
+   ✓ Responsive Design
+   ✓ Media Queries
+   ✓ Desktop Layout
+   ✓ Tablet Layout
+   ✓ Mobile Layout
+   ✓ Navigation
+   ✓ Hero
+   ✓ About
+   ✓ Skills
+   ✓ Projects
+   ✓ Contact
+   ✓ Footer
+
+   ===================================================== */
