@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Week 2 Internship</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Pink-themed homepage styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fff0f6, #ffd6e7);
+            color: #4a2433;
+        }
+
+        header {
+            text-align: center;
+            padding: 55px 20px 35px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            color: #d63384;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #704052;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* Flexbox layout for task cards */
+        .task-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 22px;
+            margin: 30px 0 50px;
+        }
+
+        /* Box Model demonstration */
+        .task-card {
+            width: 280px;
+            padding: 25px;
+            margin: 5px;
+            background: white;
+            border: 2px solid #f3a6c7;
+            border-radius: 18px;
+            box-shadow: 0 8px 20px rgba(180, 70, 120, 0.15);
+            text-align: center;
+            box-sizing: border-box;
+            transition: 0.3s;
+        }
+
+        .task-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 12px 25px rgba(180, 70, 120, 0.25);
+        }
+
+        .task-card h2 {
+            color: #d63384;
+            font-size: 21px;
+        }
+
+        .task-card p {
+            min-height: 45px;
+            line-height: 1.5;
+        }
+
+        .task-card a {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 20px;
+            background: #d63384;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .task-card a:hover {
+            background: #b52b6f;
+        }
+
+        .about {
+            background: white;
+            padding: 30px;
+            margin-bottom: 45px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(180, 70, 120, 0.12);
+        }
+
+        .about h2 {
+            color: #d63384;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #d63384;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            header p {
+                font-size: 15px;
+            }
+
+            .task-card {
+                width: 100%;
+            }
+
+            .about {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>CSS Week 2 Internship</h1>
+        <p>Learning • Designing • Creating with CSS</p>
+    </header>
+
+    <main class="container">
+
+        <!-- About Section -->
+        <section class="about">
+            <h2>Welcome to My CSS Internship Project</h2>
+
+            <p>
+                This website showcases the tasks I completed during
+                Week 2 of my Web Development Internship.
+            </p>
+
+            <p>
+                The project demonstrates CSS Selectors, Box Model,
+                Flexbox, Grid, Responsive Design and Media Queries.
+            </p>
+        </section>
+
+        <!-- Task Section -->
+        <section>
+            <h2 style="text-align:center; color:#d63384;">
+                My Week 2 Tasks
+            </h2>
+
+            <div class="task-container">
+
+                <!-- Task 1 -->
+                <div class="task-card">
+                    <h2>Task 1</h2>
+                    <p>Introduction to CSS & Selectors</p>
+                    <a href="task1.html">View Task</a>
+                </div>
+
+                <!-- Task 2 -->
+                <div class="task-card">
+                    <h2>Task 2</h2>
+                    <p>CSS Box Model & Styling</p>
+                    <a href="task2.html">View Task</a>
+                </div>
+
+                <!-- Task 3 -->
+                <div class="task-card">
+                    <h2>Task 3</h2>
+                    <p>Flexbox Layout</p>
+                    <a href="task3.html">View Task</a>
+                </div>
+
+                <!-- Task 4 -->
+                <div class="task-card">
+                    <h2>Task 4</h2>
+                    <p>CSS Grid Layout</p>
+                    <a href="task4.html">View Task</a>
+                </div>
+
+                <!-- Task 5 -->
+                <div class="task-card">
+                    <h2>Task 5</h2>
+                    <p>Responsive Design using Media Queries</p>
+                    <a href="task5.html">View Task</a>
+                </div>
+
+                <!-- Task 6 -->
+                <div class="task-card">
+                    <h2>Task 6</h2>
+                    <p>Mini CSS Project</p>
+                    <a href="task6.html">View Project</a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 CSS Week 2 Internship | Designed with HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
